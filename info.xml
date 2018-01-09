@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <extension key="org.nwu.multiplerecurring" type="module">
   <file>multiplerecurring</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
+  <name>Process Multiple Recurring Payments</name>
+  <description>Tag and eventually cancel multiple recurring payments.</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Jon Goldberg</author>
@@ -20,7 +20,7 @@
   <compatibility>
     <ver>4.7</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments>This extension tags contacts with multiple recurring payments.  One day it may cancel the old payments.</comments>
   <civix>
     <namespace>CRM/Multiplerecurring</namespace>
   </civix>
