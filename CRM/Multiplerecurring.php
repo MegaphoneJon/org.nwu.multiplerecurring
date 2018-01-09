@@ -29,7 +29,6 @@ class CRM_Multiplerecurring {
     while ($dao->fetch()) {
       $result[] = $dao->id;
     }
-    CRM_Core_Error::debug_var('result', $result);
     return $result;
   }
 
